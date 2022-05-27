@@ -1,5 +1,6 @@
 body{
     margin:0;
+    background-attachment: fixed;
     background-image:url(https://vivaglass.com.br/wp-content/uploads/2018/01/glass-wall.jpg);
     
     /*background-image:linear-gradient(to bottom right, indigo, LightBlue);*/
@@ -113,12 +114,29 @@ body{
       text-align: center;}
     
 
-    .imagem-1 img {
-      margin-left: -50%;
+    #imagem-a img {
       height: 30%;
       width: 30%;
     }
-  
+
+     .img-1 {
+      margin-left: -50%;
+    }
+    
+     .img-2 {
+      margin-left: 0;
+    }
+
+    .img-3 {
+      margin-left: 0;
+      margin-top: 10%;
+    }
+
+     .img-4{
+      margin-left: -50%;
+      margin-top: 50%;
+    }
+
   /*ASIDE*/
 
     .lateral{

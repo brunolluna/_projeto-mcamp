@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<title> T�TULO DO SITE </title>
+	<title> SERVIÇOS </title>
 	<style>
 		body{
 		margin:0;
+		background-attachment: fixed;
 		background-image:url(https://vivaglass.com.br/wp-content/uploads/2018/01/glass-wall.jpg);
 		
 		/*background-image:linear-gradient(to bottom right, indigo, LightBlue);*/
@@ -23,37 +24,51 @@
 		float: right;
 		color: rgba(255, 255, 255, 0.75);
 		font-size:24pt;}
+		
+		img {
+    margin-top:50px;
+    margin-left: 600px;
+    margin-bottom: -250px;
+    width: 750px;
+    height: 500px;}
 
 		.img1{
 		margin-left:12.5%;
 		width: 300px;
-		heigth: 300px;}
+		height: 300px;}
 
-		ul {
-  		list-style-type: none;
-	  	margin: 0;
-	  	padding: 0;
-	  	overflow: hidden;
-  		background-color: rgba(0,0,0,0.5);}
+    /*MENU*/
 
-		li {
-  		float: left;}
-			
-		li a {
-  		display: block;
-  		color: white;
-  		text-align: center;
-		font-size: 24pt;
-  		padding: 15px 30px;
-  		text-decoration: none;
-		border-right:1px solid rgba(255,255,255,0.75);}
+    nav {
+    position:fixed;
+    }
+
+    ul {
+      
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(74, 188, 188)}
+
+    li {
+      float: left;}
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+    font-size: 24pt;
+      padding: 15px 30px;
+      text-decoration: none;
+    border-right:1px solid rgba(255,255,255,0.75);}
 
 
-		li a:hover {
-  		background-color: rgba(255,255,255,0.125);}
-		
-		.atual{
-		background-color: rgba(255,255,255,0.125);}
+    li a:hover {
+      background-color: rgb(0, 83, 88);}
+    
+    .atual{
+    background-color: rgba(255,255,255,0.125);}
 
 		main{
 		background-color: rgba(0,0,0,0.25);
@@ -62,26 +77,74 @@
 		border:1px solid rgba(255,255,255,0.25);
 		text-align:center;
 		float:left;}
+	
+	
+		/*ARTIGO*/
 
+		.artigo {
+	  		
+      display: block;
+      float: left;
+      padding: 3px;
+      margin-top: 12%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 3%;
+      height: 90%;
+      width: 90%;
+      background-color: rgba(74, 188, 188, 0.7);
+      box-shadow: 3px;
+    }
 
-		article{
-		background-color: rgba(0,0,0,0.25);
-		font-size:22pt;
-		color: white;
-		text-align: center;}
-		
-		article header{
-		background-color: rgba(0,0,0,0.25);
-		font-size:22pt;
-		color: white;
-		margin-top:0.05%;
-		padding: 0.01%;
-		text-align: center;}
+    article{
+		background-color: rgba(0, 83, 88, 0.7);
+      font-size:22pt;
+      color: white;
+      text-align: center;}
+    
+    article header{
+		background-color: rgba(0, 83, 88, 0.7);
+      font-size:22pt;
+      color: white;
+      padding: 0.01%;
+      text-align: center;}
+    
+
+    #imagem-a img {
+      height: 30%;
+      width: 30%;
+    }
+
+     .img-2 {
+      margin: 5% 25%;
+	  padding: 1px;
+	  width:"200px";
+	  height:"200px";
+	  background-color: none;
+    }
 
 		summary{
-		background-color: rgba(0,0,0,0.25);
-		padding-right: 85%;}
+		/*background-color: rgba(0, 83, 88, 0.7);*/
+		padding-right: 85%;
+	}
 
+		
+
+		figure{
+		float:left;}
+
+		figcaption{
+			margin: 0 5%;
+		background-color: rgba(0, 83, 88, 0.7);}
+
+		.desc{
+		float: right;
+		background-color: rgba(0, 83, 88, 0.7);
+		padding:3px;
+		
+		margin:5% 26%;
+		}
+		
 		foot {
 		position:fixed;
 		bottom:0;
@@ -92,50 +155,107 @@
 		text-align: center;
 		padding-top:0.5%;
 		padding-bottom:0.5%;}
-
-		figure{
-		float:left;}
-
-		figcaption{
-		background-color: rgba(0,0,0,0.25);}
-
-		.desc{
-		float: right;
-		background-color: rgba(0,0,0,0.25);
-		padding:0;
-		margin:0}
-
 	</style>
 	</head>
 	<body>
-		<h1> T�TULO DO SITE </h1>
-		<h2> SUBT�TULO DO SITE </h2>
-		<br>
-		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/300px-HTML5_logo_and_wordmark.svg.png" class="img1">
-		<br><br>
 		<nav>
 			<ul>
 				<li> <a href="index.html"> Home </a> </li>
-				<li> <a href="index2.html" class="atual"> Produtos</a> </li>
-				<li> <a href="index3.html"> Fale Conosco </a> </li>
+				<li> <a href="index2.html" class="atual"> Serviços</a> </li>
+				<li> <a href="index3.html"> Contato </a> </li>
 			</ul>
 		</nav>
+		<br>
+		<img src="logo.png">
+		<br><br>
+		
 		<section>
-			<article>
+			<article class="artigo">
 				<header>
-					<p> t�tulo do article</p>
+					<p> Serviços </p>
 				</header>
-				<p> conte�do da article </p>
+				<p>  </p>
 				<br>
+				
 				<details>
-					<summary> CATEGORIA 1 </summary>
+					<summary> Instalações </summary>
 					<figure>
 						<figcaption> legenda da imagem </figcaption>
-						<img src="https://banksiafdn.com/wp-content/uploads/2019/10/placeholde-image.jpg" width="300px" heigth="300px">
+						<img src="E:/_curso-informatica/_exercicios-html/Site/_fachada.jpg" class="img-2">
 						<div class="desc">
 							<p>
-								descri��o da foto
+								Planeje já o acabamento das suas janelas com a nossa equipe!
 							</p>
+						</div>
+					</figure>
+					<figure>
+						<figcaption> legenda da imagem </figcaption>
+						<img src="E:/_curso-informatica/_exercicios-html/Site/_espelho.jpg" class="img-2">
+						<div class="desc">
+							<p>
+								Planeje já o acabamento das suas janelas com a nossa equipe!
+							</p>
+						</div>
+					</figure>
+					<figure>
+						<figcaption> legenda da imagem </figcaption>
+						<img src="E:/_curso-informatica/_exercicios-html/Site/_janela.jpg" class="img-2">
+						<div class="desc">
+							<p>
+								Planeje já o acabamento das suas janelas com a nossa equipe!
+							</p>
+						</div>
+					</figure>
+					<figure>
+						<figcaption> legenda da imagem </figcaption>
+						<img src="E:/_curso-informatica/_exercicios-html/Site/_box.jpg" class="img-2">
+						<div class="desc">
+							<p>
+								Planeje já o acabamento das suas janelas com a nossa equipe!
+							</p>
+						</div>
+					</figure>
+				</details>
+				<br>
+				<details>
+					<summary> Produtos </summary>
+					<p>Você conhece os diferentes tipos de vidro? Esse material super versátil oferece diversos benefícios para o seu projeto, como iluminação natural, controle acústico e segurança.</p>
+					<figure>
+						<figcaption> Vidro Float </figcaption>
+						<img src="E:/_curso-informatica/_exercicios-html/Site/_float.jpg" class="img-2">
+						<div class="desc">
+							<p>
+								O vidro float, também conhecido como vidro comum, é feito de uma mistura sílica (areia), potássio, alumina, sódio, magnésio e cálcio. Ele pode ser transparente, esverdeado ou fumê, de acordo com a sua necessidade. Além disso, é um dos tipos de vidro para janela mais econômicos entre todos. 
+							</p>
+						</div>
+					</figure>
+					<br>
+					<figure>
+						<figcaption> Vidro Laminado </figcaption>
+						<img src="E:/_curso-informatica/_exercicios-html/Site/_laminado.jpg" class="img-2">
+						<div class="desc">
+							<p>
+								O vidro laminado é formado por duas camadas de vidro com uma película ultra fina entre eles, geralmente de resina ou de PVB. 
+
+Assim como os temperados, esse é um dos tipos de vidro mais seguros para usar no seu projeto. Quando o vidro quebra, os cacos ficam presos na película e não espalham pelo ambiente.</p>
+						</div>
+					</figure>
+					<br>
+					<figure>
+						<figcaption> Vidro Serigrafado </figcaption>
+						<img src="E:/_curso-informatica/_exercicios-html/Site/_serigrafado.jpg" class="img-2">
+						<div class="desc">
+							<p>
+								O vidro serigrafado passa por um processo de serigrafia, que faz com que o produto possa ter diversas cores e texturas. você pode fazer cores ou formas diferentes no seu vidro, como forma de colaborar com a decoração da sua casa também. </p>
+						</div>
+					</figure>
+					<br>
+					<figure>
+						<figcaption> Vidro Aramado </figcaption>
+						<img src="E:/_curso-informatica/_exercicios-html/Site/_aramado.png" class="img-2">
+						<div class="desc">
+							<p>
+								O vidro aramado é um tipo de impresso translúcido que possui uma rede metálica de malha quadriculada incorporada à sua massa. Durante o processo de fabricação, assim que o vidro passa entre os cilindros metálicos e vai para a estenderia, o arame é colocado dentro da massa vítrea e em seguida é resfriado gradativamente.</p>
 						</div>
 					</figure>
 				</details>
@@ -143,6 +263,7 @@
 		</section>
 	</body>
 	<foot>
-		CONTE�DO DO RODAP� DA P�GINA
+		O BARATO É LOUCO!
+		Bruno & Gabriel 27/05
 	</foot>
 </html>

@@ -1,0 +1,32 @@
+		
+ARTIGOS LINEARES DE CABEÇALHO
+
+<section>
+	<!--<aside>
+				<header>
+					<h3>
+						 <p> cabe�alho da lateral esquerda </p>
+					</h3>
+				</header>
+					<p> conte�do<br> da<br> aside<br> </p>
+				<footer>
+					<h4>
+						<p> rodap� da lateral esquerda </p>
+					</h4>
+				</footer>
+			</aside>
+			<main>
+				<header>
+					<h3>
+						 <p> cabe�alho central </p>
+					</h3>
+				</header> 
+				 <p> conte�do<br> da<br> main<br> </p>
+				<footer>
+					<h4>
+						<p> rodap� central </p>
+					</h4>
+				</footer>
+			</main>
+			-->
+		</section>

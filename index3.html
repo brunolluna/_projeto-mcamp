@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<title> TÍTULO DO SITE </title>
+	<title> CONTATO </title>
 	<style>
 		body{
 		margin:0;
+		background-attachment: fixed;
 		background-image:url(https://vivaglass.com.br/wp-content/uploads/2018/01/glass-wall.jpg);
 		
 		/*background-image:linear-gradient(to bottom right, indigo, LightBlue);*/
@@ -24,36 +25,50 @@
 		color: rgba(255, 255, 255, 0.75);
 		font-size:24pt;}
 
+		img {
+    margin-top:50px;
+    margin-left: 600px;
+    margin-bottom: -250px;
+    width: 750px;
+    height: 500px;}
+
 		.img1{
 		margin-left:12.5%;
 		width: 300px;
-		heigth: 300px;}
+		height: 300px;}
 
-		ul {
-  		list-style-type: none;
-	  	margin: 0;
-	  	padding: 0;
-	  	overflow: hidden;
-  		background-color: rgba(0,0,0,0.5);}
+	/*MENU*/
 
-		li {
-  		float: left;}
-			
-		li a {
-  		display: block;
-  		color: white;
-  		text-align: center;
-		font-size: 24pt;
-  		padding: 15px 30px;
-  		text-decoration: none;
-		border-right:1px solid rgba(255,255,255,0.75);}
+	nav {
+    position:fixed;
+    }
+
+    ul {
+      
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(74, 188, 188)}
+
+    li {
+      float: left;}
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+    font-size: 24pt;
+      padding: 15px 30px;
+      text-decoration: none;
+    border-right:1px solid rgba(255,255,255,0.75);}
 
 
-		li a:hover {
-  		background-color: rgba(255,255,255,0.125);}
-		
-		.atual{
-		background-color: rgba(255,255,255,0.125);}
+    li a:hover {
+      background-color: rgb(0, 83, 88);}
+    
+    .atual{
+    background-color: rgba(255,255,255,0.125);}
 
 		main{
 		background-color: rgba(0,0,0,0.25);
@@ -64,19 +79,35 @@
 		float:left;}
 
 
-		article{
-		background-color: rgba(0,0,0,0.25);
-		font-size:22pt;
-		color: white;
-		text-align: center;}
+		/*ARTIGO*/
+
+		.artigo {
+	  		
+			  display: block;
+			  float: left;
+			  padding: 3px;
+			  margin-top: 12%;
+			  margin-left: 5%;
+			  margin-right: 5%;
+			  margin-bottom: 3%;
+			  height: 90%;
+			  width: 90%;
+			  background-color: rgba(74, 188, 188, 0.7);
+			  box-shadow: 3px;
+			}
 		
-		article header{
-		background-color: rgba(0,0,0,0.25);
-		font-size:22pt;
-		color: white;
-		margin-top:0.05%;
-		padding: 0.01%;
-		text-align: center;}
+			article{
+				background-color: rgba(0, 83, 88, 0.7);
+			  font-size:22pt;
+			  color: white;
+			  text-align: center;}
+			
+			article header{
+				background-color: rgba(0, 83, 88, 0.7);
+			  font-size:22pt;
+			  color: white;
+			  padding: 0.01%;
+			  text-align: center;}
 
 		summary{
 		background-color: rgba(0,0,0,0.25);
@@ -108,30 +139,29 @@
 	</style>
 	</head>
 	<body>
-		<h1> TÍTULO DO SITE </h1>
-		<h2> SUBTÍTULO DO SITE </h2>
-		<br>
-		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/300px-HTML5_logo_and_wordmark.svg.png" class="img1">
-		<br><br>
 		<nav>
 			<ul>
 				<li> <a href="index.html"> Home </a> </li>
-				<li> <a href="index2.html"> Produtos</a> </li>
-				<li> <a href="index3.html" class="atual"> Fale Conosco </a> </li>
+				<li> <a href="index2.html"> ServiÃ§os</a> </li>
+				<li> <a href="index3.html" class="atual"> Contato </a> </li>
 			</ul>
 		</nav>
+		<br>
+		<img src="logo.png">
+		<br><br>
+		
 		<section>
 			<article>
 				<header>
-					<p> título do article</p>
+					<p> tï¿½tulo do article</p>
 				</header>
-				<p> conteúdo da article </p>
+				<p> conteï¿½do da article </p>
 				<br>
 				<form>
 					<p> NOME </p>
 					<input type="text" placeholder="digite seu nome aqui" required>
 					<br>
-					<p> COMENTÁRIOS </p>
+					<p> COMENTï¿½RIOS </p>
 					<textarea rows="4" cols="50">
 					</textarea>
 					<br>
@@ -142,6 +172,7 @@
 		</section>
 	</body>
 	<foot>
-		CONTEÚDO DO RODAPÉ DA PÁGINA
+		O BARATO Ã‰ LOUCO!
+		Bruno & Gabriel 27/05
 	</foot>
 </html>
