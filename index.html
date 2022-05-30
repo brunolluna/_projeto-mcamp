@@ -3,128 +3,202 @@
 <html>
 	<head>
 	<title> GABRIEL VIDROS </title>
-	<link rel="stylesheet" href="E:/_curso-informatica/_exercicios-html/Site/style.css">
-	<!--<style>
+	<style>
 		body{
-		margin:0;
-		background-image:url(https://vivaglass.com.br/wp-content/uploads/2018/01/glass-wall.jpg);
-		
-		/*background-image:linear-gradient(to bottom right, indigo, LightBlue);*/
-		background-repeat:no-repeat;}
+    margin:0;
+    background-attachment: fixed;
+    background-image:url(https://vivaglass.com.br/wp-content/uploads/2018/01/glass-wall.jpg);
+    
+    /*background-image:linear-gradient(to bottom right, indigo, LightBlue);*/
+    background-repeat: round;
+  }
 
-		h1{
-		margin-top: 10%;
-		margin-left: 12.5%;
-		float: left;
-		color: rgba(255, 255, 255, 0.75);
-		font-size:24pt;}
+    h1{
+	font-family:"Century Gothic";
+    margin-top: 10%;
+    margin-left: 12.5%;
+    float: left;
+    color: rgba(255, 255, 255, 0.75);
+    font-size:24pt;}
 
-		h2{
-		margin-top: 10%;
-		margin-right: 12.5%;
-		float: right;
-		color: rgba(255, 255, 255, 0.75);
-		font-size:24pt;}
+    h2{
+	font-family:"Century Gothic";
+    margin-top: 10%;
+    margin-right: 12.5%;
+    float: right;
+    color: rgba(255, 255, 255, 0.75);
+    font-size:24pt;}
 
-		img {
-		margin-top:50px;
-		margin-left: 600px;
-		margin-bottom: -250px;
-		width: 750px;
-		height: 500px;}
-		
-		
-		.img1{
-		margin:50%;
-		width: 500px;
-		height: 500px;}
-
-		nav {
-		position:fixed;
-		}
-
-		ul {
-		
-  		list-style-type: none;
-	  	margin: 0;
-	  	padding: 0;
-	  	overflow: hidden;
-  		background-color: rgba(0,0,0,0.5);}
-
-		li {
-  		float: left;}
-
-		li a {
-  		display: block;
-  		color: white;
-  		text-align: center;
-		font-size: 24pt;
-  		padding: 15px 30px;
-  		text-decoration: none;
-		border-right:1px solid rgba(255,255,255,0.75);}
+    .logo {
+    margin:1.5% 25%;
+    width: 750px;
+    height: 500px;}
+	
+	img {
+    margin:5% 5%;
+    width: 100%;
+    height: 100%;}
+    
+    
+    .img1{
+    margin:50%;
+    width: 500px;
+    height: 500px;}
 
 
-		li a:hover {
-  		background-color: rgba(255,255,255,0.125);}
-		
-		.atual{
-		background-color: rgba(255,255,255,0.125);}
+    /*MENU*/
 
-		main{
+    nav {
+    position:fixed;
+	border-radio
+    }
+
+    ul {
+      font-family:"Century Gothic";
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(74, 188, 188)}
+
+    li {
+      float: left;}
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+    font-size: 24pt;
+      padding: 15px 30px;
+      text-decoration: none;
+    border-right:1px solid rgba(255,255,255,0.75);}
+
+
+    li a:hover {
+      background-color: rgb(0, 83, 88);}
+    
+    .atual{
+    background-color: rgba(255,255,255,0.125);}
+
+    main{
+    background-color: rgba(0,0,0,0.25);
+    font-size:22pt;
+    width:33.2%;
+    border:1px solid rgba(255,255,255,0.25);
+    text-align:center;
+    float:left;}
+
+    
+    h3{
+	font-family:"Century Gothic";
+    background-color: rgba(0,0,0,0.5);
+    font-size:22pt;
+    color: white;}
+
+    
+
+  /*ARTIGO*/
+
+    .artigo {
+      display: block;
+      float: left;
+      padding: 3px;
+      margin-top: 0;
+      margin-left: 5%;
+      margin-right: 0.1%;
+      margin-bottom: 3%;
+      height: 800px;
+      width: 59%;
+      background-color: rgba(74, 188, 188, 0.7);
+      box-shadow: 3px;
+    }
+
+    article{
+      background-color: rgba(0,0,0,0.25);
+	  font-family:"Century Gothic";
+      font-size:22pt;
+      color: white;
+      text-align: center;}
+    
+    article header{
+      background-color: rgba(0,0,0,0.25);
+	  font-family:"Century Gothic";
+      font-size:22pt;
+      color: white;
+      padding: 0.01%;
+      text-align: center;}
+    
+
+    #imagem-a img {
+      height: 30%;
+      width: 30%;
+    }
+
+     .img-1 {
+      margin-left: -50%;
+    }
+    
+     .img-2 {
+      margin-left: 0;
+    }
+
+    .img-3 {
+      margin-left: 0;
+      margin-top: 10%;
+    }
+
+     .img-4{
+      margin-left: -50%;
+      margin-top: 50%;
+    }
+
+  /*ASIDE*/
+
+    .lateral{
+		font-family:"Century Gothic";
+      display: block;
+      float:right;
+      background-color: rgba(0, 83, 88, 0.7);
+      padding: 3px;
+      margin-top: 0;
+      margin-left: 0.1%;
+      margin-right: 3%;
+      width:31%;
+      height: 600px;
+      font-size:22pt;
+      border:1px solid rgba(255,255,255,0.25);
+      text-align:justify;
+      
+    }
+  
+    .lateral h3 {
+		font-family:"Century Gothic";
+      text-align: center;
+    }
+
+    .lateral h4{
+		font-family:"Century Gothic";
 		background-color: rgba(0,0,0,0.25);
-		font-size:22pt;
-		width:33.2%;
-		border:1px solid rgba(255,255,255,0.25);
-		text-align:center;
-		float:left;}
+      font-size:22pt;
+      color: white;
+      text-align: center;
+    }
+    
+    footer h4{
+      margin-bottom:-5.5%;
+    }
 
-		aside{
-		background-color: rgba(0,0,0,0.25);
-		font-size:22pt;
-		width:30%;
-		border:1px solid rgba(255,255,255,0.25);
-		text-align:center;
-		float:left;}
-
-		h3{
-		background-color: rgba(0,0,0,0.5);
-		font-size:22pt;
-		color: white;}
-
-		h4{
-		background-color: rgba(0,0,0,0.25);
-		font-size:22pt;
-		color: white;}
-		
-		footer h4{
-		margin-bottom:-5.5%;}
-
-		article{
-		background-color: rgba(0,0,0,0.25);
-		font-size:22pt;
-		color: white;
-		text-align: center;}
-		
-		article header{
-		background-color: rgba(0,0,0,0.25);
-		font-size:22pt;
-		color: white;
-		margin-top:15.55%;
-		padding: 0.01%;
-		text-align: center;}
-
-		foot {
-		position:fixed;
-		bottom:0;
-		width:100%;
-		display:block;
-		background-color:black;
-		color:white;
-		text-align: center;
-		padding-top:0.5%;
-		padding-bottom:0.5%;}
-
-	</style>-->
+    foot {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    display:block;
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding-top:0.5%;
+    padding-bottom:0.5%;}
+	</style>
 	</head>
 	<body>
 		
@@ -134,11 +208,9 @@
 				<li> <a href="index2.html"> Serviços</a> </li>
 				<li> <a href="index3.html"> Contato </a> </li>	
 			</ul>
-		</nav><!--
-		<h1> GABRIEL VIDROS </h1>
-		<h2> QUEBROU OU RACHOU?! VENHA PARA A TRINCOU! </h2>-->
+		</nav>
 		<br>
-		<img src="logo.png">
+		<img src="logo.png" class="logo">
 		<br>
 		<br>
 		<br>
@@ -147,17 +219,13 @@
 				<header>
 					<p> A SOLUÇÃO PARA A SUA DECORAÇÃO!	</p>
 				</header>
-				<p>SERVIÇOS</p>
 				<p>Trabalhamos com box de vidro, espelhos, cobertura de vidro, vidro temperado, piso laminado, portas, janelas de vidro, fornecimento e instalação.</p>
 				
 				<figure id="imagem-a">
 					<figcaption>
-						SERVIÇOS
+
 					</figcaption>
-					<img src="E:\_curso-informatica\_exercicios-html\Site\_fachada.jpg" class="img-1">
-					<!--<img src="E:\_curso-informatica\_exercicios-html\Site\_box.jpg" class="img-2">
-					<img src="E:\_curso-informatica\_exercicios-html\Site\_espelho.jpg" class="img-3">
-					<img src="E:\_curso-informatica\_exercicios-html\Site\_janela.jpg" class="img-4">-->
+					<img src="https://psdovidro.com.br/wp-content/uploads/2015/09/fac9.jpg">
 				</figure>
 			</article>	
 		</section>
@@ -172,16 +240,11 @@
 
 						Trabalhamos com quase todos os tipos de projetos de vidros e sempre focamos na qualidade do atendimento e a satisfação na entrega de resultados.
 						</p>
-				<footer>
-					<h4>
-						<p> rodap� da lateral direita </p>
-					</h4>
-				</footer>
 			</aside>
 
 	</body>
 	<foot>
 		O BARATO É LOUCO!
-		Bruno & Gabriel 27/05
+		Bruno & Gabriel 28/05
 	</foot>
 </html>
